@@ -1,0 +1,30 @@
+{
+  "status": "SYNTHETIC_CONDITIONAL",
+  "config": {
+    "d": 128,
+    "K": 4,
+    "p": 32,
+    "N": 128,
+    "tau": 0.75,
+    "eta": 0.1,
+    "dev_seeds": [
+      0,
+      1,
+      2
+    ],
+    "audit_seeds": [
+      10,
+      11,
+      12
+    ]
+  },
+  "rows": 21,
+  "sha256": "11a5eab604bce319df9c318c6766c6a024c357c9f1f5b38c847f544faabefd66",
+  "negative_controls": [
+    "nonorthogonal",
+    "heavy_tailed",
+    "wrong_U"
+  ],
+  "noise_model": "low_rank_union_of_subspaces_gaussian",
+  "tau_used_as_signal_scale": true
+}

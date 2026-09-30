@@ -1,0 +1,4928 @@
+[
+  {
+    "run_id": "loop-0-1",
+    "source_hashes": {},
+    "config_hash": "4ee4d8589d277ae9c67fbbb5d6bada22c80dbc8b73b60eef2ce5c15d09bf7897",
+    "seed": 0,
+    "task_id": "theorem_toy",
+    "R": 1,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.329832+00:00",
+    "finished_at": "2026-09-29T19:11:24.330213+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      10.266498436982909
+    ],
+    "sparsity": [
+      0.5078125
+    ],
+    "SNR": null,
+    "norms": [
+      13.584036437215675
+    ],
+    "operator_residual": [
+      0.0
+    ],
+    "wall_seconds": 0.00031091697746887803,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              49.722793323042985,
+              35.507877254654304
+            ],
+            "neumann_remainder_proxy": [
+              2472.3561758460482,
+              1260.8093471315965
+            ],
+            "row_sum_error": 3.3306690738754696e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07598539711019443,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5078125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 16.721335351547552,
+          "coding_rate_after": 10.266498436982909,
+          "input_norm": 19.04891237668841,
+          "output_norm": 13.584036437215675,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.475205097841887,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-0-2",
+    "source_hashes": {},
+    "config_hash": "d17809c6cb7ac8e6a9943d4afc94751cb70832b0f734f583320f6b0706d503a5",
+    "seed": 0,
+    "task_id": "theorem_toy",
+    "R": 2,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.330295+00:00",
+    "finished_at": "2026-09-29T19:11:24.330654+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      10.266498436982909,
+      10.28043245689102
+    ],
+    "sparsity": [
+      0.5078125,
+      0.34765625
+    ],
+    "SNR": null,
+    "norms": [
+      13.584036437215675,
+      13.603584470911796
+    ],
+    "operator_residual": [
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.00035912502789869905,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              49.722793323042985,
+              35.507877254654304
+            ],
+            "neumann_remainder_proxy": [
+              2472.3561758460482,
+              1260.8093471315965
+            ],
+            "row_sum_error": 3.3306690738754696e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07598539711019443,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5078125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 16.721335351547552,
+          "coding_rate_after": 10.266498436982909,
+          "input_norm": 19.04891237668841,
+          "output_norm": 13.584036437215675,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              33.564494506663216,
+              20.82831552421035
+            ],
+            "neumann_remainder_proxy": [
+              1126.575291487825,
+              433.81872757606186
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04285656977533996,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.34765625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.266498436982909,
+          "coding_rate_after": 10.28043245689102,
+          "input_norm": 13.584036437215675,
+          "output_norm": 13.603584470911796,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.475205097841887,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-0-4",
+    "source_hashes": {},
+    "config_hash": "1f477b7bbbf55471e0c6fc51a1c30fb233b666ff9f009af06259572506aeb1e4",
+    "seed": 0,
+    "task_id": "theorem_toy",
+    "R": 4,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.330703+00:00",
+    "finished_at": "2026-09-29T19:11:24.331337+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      10.266498436982909,
+      10.28043245689102,
+      10.294431105223431,
+      10.308494553987721
+    ],
+    "sparsity": [
+      0.5078125,
+      0.34765625,
+      0.3466796875,
+      0.3466796875
+    ],
+    "SNR": null,
+    "norms": [
+      13.584036437215675,
+      13.603584470911796,
+      13.623329739356063,
+      13.643274255455534
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0006341670523397624,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              49.722793323042985,
+              35.507877254654304
+            ],
+            "neumann_remainder_proxy": [
+              2472.3561758460482,
+              1260.8093471315965
+            ],
+            "row_sum_error": 3.3306690738754696e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07598539711019443,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5078125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 16.721335351547552,
+          "coding_rate_after": 10.266498436982909,
+          "input_norm": 19.04891237668841,
+          "output_norm": 13.584036437215675,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              33.564494506663216,
+              20.82831552421035
+            ],
+            "neumann_remainder_proxy": [
+              1126.575291487825,
+              433.81872757606186
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04285656977533996,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.34765625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.266498436982909,
+          "coding_rate_after": 10.28043245689102,
+          "input_norm": 13.584036437215675,
+          "output_norm": 13.603584470911796,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              33.8377481309153,
+              20.95555988395665
+            ],
+            "neumann_remainder_proxy": [
+              1144.993198571262,
+              439.1354900500932
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04311216790479464,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3466796875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.28043245689102,
+          "coding_rate_after": 10.294431105223431,
+          "input_norm": 13.603584470911796,
+          "output_norm": 13.623329739356063,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.11444237601343,
+              21.084118015806112
+            ],
+            "neumann_remainder_proxy": [
+              1163.7951786263407,
+              444.54003250443986
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.043370445933575995,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3466796875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.294431105223431,
+          "coding_rate_after": 10.308494553987721,
+          "input_norm": 13.623329739356063,
+          "output_norm": 13.643274255455534,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.475205097841887,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-0-8",
+    "source_hashes": {},
+    "config_hash": "2f672e669349f5f66d509218fa080b4b51ddddb965bf2c5411d66d9fbcfecd96",
+    "seed": 0,
+    "task_id": "theorem_toy",
+    "R": 8,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.331379+00:00",
+    "finished_at": "2026-09-29T19:11:24.332601+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      10.266498436982909,
+      10.28043245689102,
+      10.294431105223431,
+      10.308494553987721,
+      10.322622979910399,
+      10.33681655691597,
+      10.351075496722174,
+      10.36542411076671
+    ],
+    "sparsity": [
+      0.5078125,
+      0.34765625,
+      0.3466796875,
+      0.3466796875,
+      0.345703125,
+      0.345703125,
+      0.3447265625,
+      0.345703125
+    ],
+    "SNR": null,
+    "norms": [
+      13.584036437215675,
+      13.603584470911796,
+      13.623329739356063,
+      13.643274255455534,
+      13.663420056199648,
+      13.68376920296109,
+      13.704323781832047,
+      13.72508576400111
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0012217499897815287,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              49.722793323042985,
+              35.507877254654304
+            ],
+            "neumann_remainder_proxy": [
+              2472.3561758460482,
+              1260.8093471315965
+            ],
+            "row_sum_error": 3.3306690738754696e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07598539711019443,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5078125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 16.721335351547552,
+          "coding_rate_after": 10.266498436982909,
+          "input_norm": 19.04891237668841,
+          "output_norm": 13.584036437215675,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              33.564494506663216,
+              20.82831552421035
+            ],
+            "neumann_remainder_proxy": [
+              1126.575291487825,
+              433.81872757606186
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04285656977533996,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.34765625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.266498436982909,
+          "coding_rate_after": 10.28043245689102,
+          "input_norm": 13.584036437215675,
+          "output_norm": 13.603584470911796,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              33.8377481309153,
+              20.95555988395665
+            ],
+            "neumann_remainder_proxy": [
+              1144.993198571262,
+              439.1354900500932
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04311216790479464,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3466796875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.28043245689102,
+          "coding_rate_after": 10.294431105223431,
+          "input_norm": 13.603584470911796,
+          "output_norm": 13.623329739356063,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.11444237601343,
+              21.084118015806112
+            ],
+            "neumann_remainder_proxy": [
+              1163.7951786263407,
+              444.54003250443986
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.043370445933575995,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3466796875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.294431105223431,
+          "coding_rate_after": 10.308494553987721,
+          "input_norm": 13.623329739356063,
+          "output_norm": 13.643274255455534,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.39463055732391,
+              21.21400473678584
+            ],
+            "neumann_remainder_proxy": [
+              1182.9906111747994,
+              450.033996972372
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04363143782449082,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.345703125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.308494553987721,
+          "coding_rate_after": 10.322622979910399,
+          "input_norm": 13.643274255455534,
+          "output_norm": 13.663420056199648,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.67836605367932,
+              21.3452358734358
+            ],
+            "neumann_remainder_proxy": [
+              1202.5890721529781,
+              455.6190944926106
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.043895177570320035,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.345703125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.322622979910399,
+          "coding_rate_after": 10.33681655691597,
+          "input_norm": 13.663420056199648,
+          "output_norm": 13.68376920296109,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.96570318567981,
+              21.4778276184771
+            ],
+            "neumann_remainder_proxy": [
+              1222.600399269059,
+              461.2970792090177
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.044161699603493476,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3447265625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.33681655691597,
+          "coding_rate_after": 10.351075496722174,
+          "input_norm": 13.68376920296109,
+          "output_norm": 13.704323781832047,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              35.25669760260785,
+              21.61179603944639
+            ],
+            "neumann_remainder_proxy": [
+              1243.0347258417341,
+              467.06972805063066
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.0444310388632973,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.345703125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.351075496722174,
+          "coding_rate_after": 10.36542411076671,
+          "input_norm": 13.704323781832047,
+          "output_norm": 13.72508576400111,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.475205097841887,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-0-1",
+    "source_hashes": {},
+    "config_hash": "a844d628eda23fe18032ed76871c9f748d632fa6278531511bc07eab60696570",
+    "seed": 0,
+    "task_id": "equal_flops_untied",
+    "R": 1,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.332641+00:00",
+    "finished_at": "2026-09-29T19:11:24.333254+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      10.266498436982909,
+      10.28043245689102,
+      10.294431105223431,
+      10.308494553987721
+    ],
+    "sparsity": [
+      0.5078125,
+      0.34765625,
+      0.3466796875,
+      0.3466796875
+    ],
+    "SNR": null,
+    "norms": [
+      13.584036437215675,
+      13.603584470911796,
+      13.623329739356063,
+      13.643274255455534
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0006136250449344516,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              49.722793323042985,
+              35.507877254654304
+            ],
+            "neumann_remainder_proxy": [
+              2472.3561758460482,
+              1260.8093471315965
+            ],
+            "row_sum_error": 3.3306690738754696e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07598539711019443,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5078125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 16.721335351547552,
+          "coding_rate_after": 10.266498436982909,
+          "input_norm": 19.04891237668841,
+          "output_norm": 13.584036437215675,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              33.564494506663216,
+              20.82831552421035
+            ],
+            "neumann_remainder_proxy": [
+              1126.575291487825,
+              433.81872757606186
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04285656977533996,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.34765625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.266498436982909,
+          "coding_rate_after": 10.28043245689102,
+          "input_norm": 13.584036437215675,
+          "output_norm": 13.603584470911796,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              33.8377481309153,
+              20.95555988395665
+            ],
+            "neumann_remainder_proxy": [
+              1144.993198571262,
+              439.1354900500932
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04311216790479464,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3466796875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.28043245689102,
+          "coding_rate_after": 10.294431105223431,
+          "input_norm": 13.603584470911796,
+          "output_norm": 13.623329739356063,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.11444237601343,
+              21.084118015806112
+            ],
+            "neumann_remainder_proxy": [
+              1163.7951786263407,
+              444.54003250443986
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.043370445933575995,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3466796875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.294431105223431,
+          "coding_rate_after": 10.308494553987721,
+          "input_norm": 13.623329739356063,
+          "output_norm": 13.643274255455534,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-1-1",
+    "source_hashes": {},
+    "config_hash": "60950c897de147ee5037627276b8e27ed4c44d5c5c868310b8091461b33d73f1",
+    "seed": 1,
+    "task_id": "theorem_toy",
+    "R": 1,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.333381+00:00",
+    "finished_at": "2026-09-29T19:11:24.333545+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.988699540216555
+    ],
+    "sparsity": [
+      0.5029296875
+    ],
+    "SNR": null,
+    "norms": [
+      13.575840163630085
+    ],
+    "operator_residual": [
+      0.0
+    ],
+    "wall_seconds": 0.00016420899191871285,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              34.8065288026513,
+              51.145096055276476
+            ],
+            "neumann_remainder_proxy": [
+              1211.4944472897946,
+              2615.820850503457
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.0738045189067726,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5029296875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 15.804975189402079,
+          "coding_rate_after": 9.988699540216555,
+          "input_norm": 18.678284393357636,
+          "output_norm": 13.575840163630085,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.064912707239112,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-1-2",
+    "source_hashes": {},
+    "config_hash": "89da1d1f3cad738a76581d52cee653d285e36bfa187366df24ddebff073b2443",
+    "seed": 1,
+    "task_id": "theorem_toy",
+    "R": 2,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.333584+00:00",
+    "finished_at": "2026-09-29T19:11:24.333894+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.988699540216555,
+      10.00261264186066
+    ],
+    "sparsity": [
+      0.5029296875,
+      0.3828125
+    ],
+    "SNR": null,
+    "norms": [
+      13.575840163630085,
+      13.590392855624419
+    ],
+    "operator_residual": [
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0003107080119661987,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              34.8065288026513,
+              51.145096055276476
+            ],
+            "neumann_remainder_proxy": [
+              1211.4944472897946,
+              2615.820850503457
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.0738045189067726,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5029296875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 15.804975189402079,
+          "coding_rate_after": 9.988699540216555,
+          "input_norm": 18.678284393357636,
+          "output_norm": 13.575840163630085,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.070524176969187,
+              17.660041886383066
+            ],
+            "neumann_remainder_proxy": [
+              326.5438440304279,
+              311.8770794288044
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03629975741481421,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3828125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.988699540216555,
+          "coding_rate_after": 10.00261264186066,
+          "input_norm": 13.575840163630085,
+          "output_norm": 13.590392855624419,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.064912707239112,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-1-4",
+    "source_hashes": {},
+    "config_hash": "853d1b2370386cf4b6ba1bc20c5da96dd7f31ebe0359c6ca7c85e06c0387eec4",
+    "seed": 1,
+    "task_id": "theorem_toy",
+    "R": 4,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.333931+00:00",
+    "finished_at": "2026-09-29T19:11:24.334543+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.988699540216555,
+      10.00261264186066,
+      10.016601362415019,
+      10.030665873174001
+    ],
+    "sparsity": [
+      0.5029296875,
+      0.3828125,
+      0.3818359375,
+      0.3818359375
+    ],
+    "SNR": null,
+    "norms": [
+      13.575840163630085,
+      13.590392855624419,
+      13.605080317583885,
+      13.619903388893773
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0006114580319263041,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              34.8065288026513,
+              51.145096055276476
+            ],
+            "neumann_remainder_proxy": [
+              1211.4944472897946,
+              2615.820850503457
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.0738045189067726,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5029296875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 15.804975189402079,
+          "coding_rate_after": 9.988699540216555,
+          "input_norm": 18.678284393357636,
+          "output_norm": 13.575840163630085,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.070524176969187,
+              17.660041886383066
+            ],
+            "neumann_remainder_proxy": [
+              326.5438440304279,
+              311.8770794288044
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03629975741481421,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3828125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.988699540216555,
+          "coding_rate_after": 10.00261264186066,
+          "input_norm": 13.575840163630085,
+          "output_norm": 13.590392855624419,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.151270929163204,
+              17.774688742051286
+            ],
+            "neumann_remainder_proxy": [
+              329.46863634388524,
+              315.9395598768047
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03645471430535238,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3818359375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.00261264186066,
+          "coding_rate_after": 10.016601362415019,
+          "input_norm": 13.590392855624419,
+          "output_norm": 13.605080317583885,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.23276399858821,
+              17.890411335817564
+            ],
+            "neumann_remainder_proxy": [
+              332.4336830282144,
+              320.0668177647496
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.036610483761086256,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3818359375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.016601362415019,
+          "coding_rate_after": 10.030665873174001,
+          "input_norm": 13.605080317583885,
+          "output_norm": 13.619903388893773,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.064912707239112,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-1-8",
+    "source_hashes": {},
+    "config_hash": "2289aaf25bdff3d752475a81427baea92bf53e21b683b682c6908c607c9fad05",
+    "seed": 1,
+    "task_id": "theorem_toy",
+    "R": 8,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.334617+00:00",
+    "finished_at": "2026-09-29T19:11:24.335826+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.988699540216555,
+      10.00261264186066,
+      10.016601362415019,
+      10.030665873174001,
+      10.044806370839623,
+      10.059023053438928,
+      10.073316120375484,
+      10.087685766923855
+    ],
+    "sparsity": [
+      0.5029296875,
+      0.3828125,
+      0.3818359375,
+      0.3818359375,
+      0.3818359375,
+      0.3818359375,
+      0.3818359375,
+      0.37890625
+    ],
+    "SNR": null,
+    "norms": [
+      13.575840163630085,
+      13.590392855624419,
+      13.605080317583885,
+      13.619903388893773,
+      13.634862916383483,
+      13.649959754552052,
+      13.665194765740162,
+      13.680568820305318
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0012084160116501153,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              34.8065288026513,
+              51.145096055276476
+            ],
+            "neumann_remainder_proxy": [
+              1211.4944472897946,
+              2615.820850503457
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.0738045189067726,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5029296875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 15.804975189402079,
+          "coding_rate_after": 9.988699540216555,
+          "input_norm": 18.678284393357636,
+          "output_norm": 13.575840163630085,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.070524176969187,
+              17.660041886383066
+            ],
+            "neumann_remainder_proxy": [
+              326.5438440304279,
+              311.8770794288044
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03629975741481421,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3828125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.988699540216555,
+          "coding_rate_after": 10.00261264186066,
+          "input_norm": 13.575840163630085,
+          "output_norm": 13.590392855624419,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.151270929163204,
+              17.774688742051286
+            ],
+            "neumann_remainder_proxy": [
+              329.46863634388524,
+              315.9395598768047
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03645471430535238,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3818359375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.00261264186066,
+          "coding_rate_after": 10.016601362415019,
+          "input_norm": 13.590392855624419,
+          "output_norm": 13.605080317583885,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.23276399858821,
+              17.890411335817564
+            ],
+            "neumann_remainder_proxy": [
+              332.4336830282144,
+              320.0668177647496
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.036610483761086256,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3818359375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.016601362415019,
+          "coding_rate_after": 10.030665873174001,
+          "input_norm": 13.605080317583885,
+          "output_norm": 13.619903388893773,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.31501130949276,
+              18.007219755151397
+            ],
+            "neumann_remainder_proxy": [
+              335.43963926684773,
+              324.25996331031473
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03676707780028443,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3818359375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.030665873174001,
+          "coding_rate_after": 10.044806370839623,
+          "input_norm": 13.619903388893773,
+          "output_norm": 13.634862916383483,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.39802061240727,
+              18.125124280971825
+            ],
+            "neumann_remainder_proxy": [
+              338.48716245456274,
+              328.52013020067443
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03692450874485325,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3818359375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.044806370839623,
+          "coding_rate_after": 10.059023053438928,
+          "input_norm": 13.634862916383483,
+          "output_norm": 13.649959754552052,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.481799740368764,
+              18.24413538892754
+            ],
+            "neumann_remainder_proxy": [
+              341.5769216430949,
+              332.8484760895182
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03708278926053394,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3818359375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.059023053438928,
+          "coding_rate_after": 10.073316120375484,
+          "input_norm": 13.649959754552052,
+          "output_norm": 13.665194765740162,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.56635660981798,
+              18.36426375440591
+            ],
+            "neumann_remainder_proxy": [
+              344.7095977629318,
+              337.2461832413867
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03724193236331399,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.37890625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.073316120375484,
+          "coding_rate_after": 10.087685766923855,
+          "input_norm": 13.665194765740162,
+          "output_norm": 13.680568820305318,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.064912707239112,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-1-1",
+    "source_hashes": {},
+    "config_hash": "82c77580d45c17691844e2964bed528d00461166017e48e7ff746ed9310f632d",
+    "seed": 1,
+    "task_id": "equal_flops_untied",
+    "R": 1,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.335863+00:00",
+    "finished_at": "2026-09-29T19:11:24.336470+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.988699540216555,
+      10.00261264186066,
+      10.016601362415019,
+      10.030665873174001
+    ],
+    "sparsity": [
+      0.5029296875,
+      0.3828125,
+      0.3818359375,
+      0.3818359375
+    ],
+    "SNR": null,
+    "norms": [
+      13.575840163630085,
+      13.590392855624419,
+      13.605080317583885,
+      13.619903388893773
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0006065419875085354,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              34.8065288026513,
+              51.145096055276476
+            ],
+            "neumann_remainder_proxy": [
+              1211.4944472897946,
+              2615.820850503457
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.0738045189067726,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5029296875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 15.804975189402079,
+          "coding_rate_after": 9.988699540216555,
+          "input_norm": 18.678284393357636,
+          "output_norm": 13.575840163630085,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.070524176969187,
+              17.660041886383066
+            ],
+            "neumann_remainder_proxy": [
+              326.5438440304279,
+              311.8770794288044
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03629975741481421,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3828125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.988699540216555,
+          "coding_rate_after": 10.00261264186066,
+          "input_norm": 13.575840163630085,
+          "output_norm": 13.590392855624419,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.151270929163204,
+              17.774688742051286
+            ],
+            "neumann_remainder_proxy": [
+              329.46863634388524,
+              315.9395598768047
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03645471430535238,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3818359375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.00261264186066,
+          "coding_rate_after": 10.016601362415019,
+          "input_norm": 13.590392855624419,
+          "output_norm": 13.605080317583885,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              18.23276399858821,
+              17.890411335817564
+            ],
+            "neumann_remainder_proxy": [
+              332.4336830282144,
+              320.0668177647496
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.036610483761086256,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3818359375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 10.016601362415019,
+          "coding_rate_after": 10.030665873174001,
+          "input_norm": 13.605080317583885,
+          "output_norm": 13.619903388893773,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-2-1",
+    "source_hashes": {},
+    "config_hash": "4b263f1875a9cd2ea4fe1200a0685a1e917ecc6859d0db83949d88d9b20e4f7c",
+    "seed": 2,
+    "task_id": "theorem_toy",
+    "R": 1,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.336575+00:00",
+    "finished_at": "2026-09-29T19:11:24.336736+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.716662652226098
+    ],
+    "sparsity": [
+      0.4873046875
+    ],
+    "SNR": null,
+    "norms": [
+      12.895200322231204
+    ],
+    "operator_residual": [
+      0.0
+    ],
+    "wall_seconds": 0.00016075000166893005,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              39.80843380443102,
+              45.74213352645245
+            ],
+            "neumann_remainder_proxy": [
+              1584.7114019617663,
+              2092.342779551805
+            ],
+            "row_sum_error": 3.3306690738754696e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07617333366124837,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.4873046875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 16.321028598925714,
+          "coding_rate_after": 9.716662652226098,
+          "input_norm": 18.438819554571324,
+          "output_norm": 12.895200322231204,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.481855668454329,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-2-2",
+    "source_hashes": {},
+    "config_hash": "2d416b806c2fe0c8717d9b327f39242ee6aba9ad08e089d8a18b08d318e3e977",
+    "seed": 2,
+    "task_id": "theorem_toy",
+    "R": 2,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.336772+00:00",
+    "finished_at": "2026-09-29T19:11:24.337077+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.716662652226098,
+      9.72788776757237
+    ],
+    "sparsity": [
+      0.4873046875,
+      0.3701171875
+    ],
+    "SNR": null,
+    "norms": [
+      12.895200322231204,
+      12.907669632172814
+    ],
+    "operator_residual": [
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0003052089596167207,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              39.80843380443102,
+              45.74213352645245
+            ],
+            "neumann_remainder_proxy": [
+              1584.7114019617663,
+              2092.342779551805
+            ],
+            "row_sum_error": 3.3306690738754696e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07617333366124837,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.4873046875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 16.321028598925714,
+          "coding_rate_after": 9.716662652226098,
+          "input_norm": 18.438819554571324,
+          "output_norm": 12.895200322231204,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.082943043263846,
+              17.091531256275513
+            ],
+            "neumann_remainder_proxy": [
+              364.158715192452,
+              292.1204406842428
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.033094181309417145,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3701171875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.716662652226098,
+          "coding_rate_after": 9.72788776757237,
+          "input_norm": 12.895200322231204,
+          "output_norm": 12.907669632172814,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.481855668454329,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-2-4",
+    "source_hashes": {},
+    "config_hash": "9d63f1004e9c0f4c7021eafb1ad18e144270eecca9bb4498b383513e1618f47a",
+    "seed": 2,
+    "task_id": "theorem_toy",
+    "R": 4,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.337114+00:00",
+    "finished_at": "2026-09-29T19:11:24.337718+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.716662652226098,
+      9.72788776757237,
+      9.739169988125912,
+      9.750515849205708
+    ],
+    "sparsity": [
+      0.4873046875,
+      0.3701171875,
+      0.369140625,
+      0.369140625
+    ],
+    "SNR": null,
+    "norms": [
+      12.895200322231204,
+      12.907669632172814,
+      12.92025797670211,
+      12.932966284248286
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0006040420266799629,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              39.80843380443102,
+              45.74213352645245
+            ],
+            "neumann_remainder_proxy": [
+              1584.7114019617663,
+              2092.342779551805
+            ],
+            "row_sum_error": 3.3306690738754696e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07617333366124837,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.4873046875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 16.321028598925714,
+          "coding_rate_after": 9.716662652226098,
+          "input_norm": 18.438819554571324,
+          "output_norm": 12.895200322231204,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.082943043263846,
+              17.091531256275513
+            ],
+            "neumann_remainder_proxy": [
+              364.158715192452,
+              292.1204406842428
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.033094181309417145,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3701171875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.716662652226098,
+          "coding_rate_after": 9.72788776757237,
+          "input_norm": 12.895200322231204,
+          "output_norm": 12.907669632172814,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.18285253288884,
+              17.193075450433923
+            ],
+            "neumann_remainder_proxy": [
+              367.9818312985598,
+              295.60184344431366
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03323601490924873,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.369140625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.72788776757237,
+          "coding_rate_after": 9.739169988125912,
+          "input_norm": 12.907669632172814,
+          "output_norm": 12.92025797670211,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.28362972723585,
+              17.295630397570758
+            ],
+            "neumann_remainder_proxy": [
+              371.85837545713423,
+              299.1388308493736
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03337880901591755,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.369140625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.739169988125912,
+          "coding_rate_after": 9.750515849205708,
+          "input_norm": 12.92025797670211,
+          "output_norm": 12.932966284248286,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.481855668454329,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-2-8",
+    "source_hashes": {},
+    "config_hash": "0d74cedffdea71ac6144535c905e4a71ccbc2b5f433e88a5215fdec46473d794",
+    "seed": 2,
+    "task_id": "theorem_toy",
+    "R": 8,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.337753+00:00",
+    "finished_at": "2026-09-29T19:11:24.338955+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.716662652226098,
+      9.72788776757237,
+      9.739169988125912,
+      9.750515849205708,
+      9.761925669433797,
+      9.773399693009807,
+      9.784938200532753,
+      9.79654151579079
+    ],
+    "sparsity": [
+      0.4873046875,
+      0.3701171875,
+      0.369140625,
+      0.369140625,
+      0.369140625,
+      0.3681640625,
+      0.3681640625,
+      0.3681640625
+    ],
+    "SNR": null,
+    "norms": [
+      12.895200322231204,
+      12.907669632172814,
+      12.92025797670211,
+      12.932966284248286,
+      12.945795517792668,
+      12.958746649593488,
+      12.971820661301349,
+      12.985018544107131
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0012017499539069831,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              39.80843380443102,
+              45.74213352645245
+            ],
+            "neumann_remainder_proxy": [
+              1584.7114019617663,
+              2092.342779551805
+            ],
+            "row_sum_error": 3.3306690738754696e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07617333366124837,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.4873046875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 16.321028598925714,
+          "coding_rate_after": 9.716662652226098,
+          "input_norm": 18.438819554571324,
+          "output_norm": 12.895200322231204,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.082943043263846,
+              17.091531256275513
+            ],
+            "neumann_remainder_proxy": [
+              364.158715192452,
+              292.1204406842428
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.033094181309417145,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3701171875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.716662652226098,
+          "coding_rate_after": 9.72788776757237,
+          "input_norm": 12.895200322231204,
+          "output_norm": 12.907669632172814,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.18285253288884,
+              17.193075450433923
+            ],
+            "neumann_remainder_proxy": [
+              367.9818312985598,
+              295.60184344431366
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03323601490924873,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.369140625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.72788776757237,
+          "coding_rate_after": 9.739169988125912,
+          "input_norm": 12.907669632172814,
+          "output_norm": 12.92025797670211,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.28362972723585,
+              17.295630397570758
+            ],
+            "neumann_remainder_proxy": [
+              371.85837545713423,
+              299.1388308493736
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03337880901591755,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.369140625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.739169988125912,
+          "coding_rate_after": 9.750515849205708,
+          "input_norm": 12.92025797670211,
+          "output_norm": 12.932966284248286,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.385311134997178,
+              17.39927941831066
+            ],
+            "neumann_remainder_proxy": [
+              375.79028780064556,
+              302.7349242764489
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03352262368494662,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.369140625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.750515849205708,
+          "coding_rate_after": 9.761925669433797,
+          "input_norm": 12.932966284248286,
+          "output_norm": 12.945795517792668,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.48790651740944,
+              17.504034294608026
+            ],
+            "neumann_remainder_proxy": [
+              379.7785004312893,
+              306.39121658681387
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03366747028048271,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3681640625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.761925669433797,
+          "coding_rate_after": 9.773399693009807,
+          "input_norm": 12.945795517792668,
+          "output_norm": 12.958746649593488,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.5914258123926,
+              17.609906993635402
+            ],
+            "neumann_remainder_proxy": [
+              383.8239653624831,
+              310.10882432448904
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03381336046492321,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3681640625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.773399693009807,
+          "coding_rate_after": 9.784938200532753,
+          "input_norm": 12.958746649593488,
+          "output_norm": 12.971820661301349,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.69587906106652,
+              17.716909658757498
+            ],
+            "neumann_remainder_proxy": [
+              387.9276519881586,
+              313.88888785657474
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03396030610843134,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3681640625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.784938200532753,
+          "coding_rate_after": 9.79654151579079,
+          "input_norm": 12.971820661301349,
+          "output_norm": 12.985018544107131,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.481855668454329,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-2-1",
+    "source_hashes": {},
+    "config_hash": "419570106a52286971b9f1f69aee49ccbf988ef4ddd9344f15a0a075bf2d5b64",
+    "seed": 2,
+    "task_id": "equal_flops_untied",
+    "R": 1,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.338991+00:00",
+    "finished_at": "2026-09-29T19:11:24.339592+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.716662652226098,
+      9.72788776757237,
+      9.739169988125912,
+      9.750515849205708
+    ],
+    "sparsity": [
+      0.4873046875,
+      0.3701171875,
+      0.369140625,
+      0.369140625
+    ],
+    "SNR": null,
+    "norms": [
+      12.895200322231204,
+      12.907669632172814,
+      12.92025797670211,
+      12.932966284248286
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0005976660177111626,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              39.80843380443102,
+              45.74213352645245
+            ],
+            "neumann_remainder_proxy": [
+              1584.7114019617663,
+              2092.342779551805
+            ],
+            "row_sum_error": 3.3306690738754696e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07617333366124837,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.4873046875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 16.321028598925714,
+          "coding_rate_after": 9.716662652226098,
+          "input_norm": 18.438819554571324,
+          "output_norm": 12.895200322231204,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.082943043263846,
+              17.091531256275513
+            ],
+            "neumann_remainder_proxy": [
+              364.158715192452,
+              292.1204406842428
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.033094181309417145,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3701171875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.716662652226098,
+          "coding_rate_after": 9.72788776757237,
+          "input_norm": 12.895200322231204,
+          "output_norm": 12.907669632172814,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.18285253288884,
+              17.193075450433923
+            ],
+            "neumann_remainder_proxy": [
+              367.9818312985598,
+              295.60184344431366
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03323601490924873,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.369140625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.72788776757237,
+          "coding_rate_after": 9.739169988125912,
+          "input_norm": 12.907669632172814,
+          "output_norm": 12.92025797670211,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              19.28362972723585,
+              17.295630397570758
+            ],
+            "neumann_remainder_proxy": [
+              371.85837545713423,
+              299.1388308493736
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03337880901591755,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.369140625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.739169988125912,
+          "coding_rate_after": 9.750515849205708,
+          "input_norm": 12.92025797670211,
+          "output_norm": 12.932966284248286,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-10-1",
+    "source_hashes": {},
+    "config_hash": "d5b225a42d5ac51912cd275c4a966b428317efe9729978727125a5e29f1bc15e",
+    "seed": 10,
+    "task_id": "theorem_toy",
+    "R": 1,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.339688+00:00",
+    "finished_at": "2026-09-29T19:11:24.339848+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      11.510941464245342
+    ],
+    "sparsity": [
+      0.505859375
+    ],
+    "SNR": null,
+    "norms": [
+      14.189040047390417
+    ],
+    "operator_residual": [
+      0.0
+    ],
+    "wall_seconds": 0.00015983398770913482,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              52.63477918851101,
+              40.16724228551746
+            ],
+            "neumann_remainder_proxy": [
+              2770.419980223312,
+              1613.407352823462
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.08023755316967707,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.505859375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 17.328544267520204,
+          "coding_rate_after": 11.510941464245342,
+          "input_norm": 19.518097826464484,
+          "output_norm": 14.189040047390417,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 6.563397346576053,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-10-2",
+    "source_hashes": {},
+    "config_hash": "323f7ae0ecad5a2af698cbe4d55d3f6f3f6f0ce1ab4d3a5e5c146a7f9c9b1317",
+    "seed": 10,
+    "task_id": "theorem_toy",
+    "R": 2,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.339883+00:00",
+    "finished_at": "2026-09-29T19:11:24.340190+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      11.510941464245342,
+      11.531618861233401
+    ],
+    "sparsity": [
+      0.505859375,
+      0.2470703125
+    ],
+    "SNR": null,
+    "norms": [
+      14.189040047390417,
+      14.215678317212834
+    ],
+    "operator_residual": [
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0003071249811910093,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              52.63477918851101,
+              40.16724228551746
+            ],
+            "neumann_remainder_proxy": [
+              2770.419980223312,
+              1613.407352823462
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.08023755316967707,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.505859375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 17.328544267520204,
+          "coding_rate_after": 11.510941464245342,
+          "input_norm": 19.518097826464484,
+          "output_norm": 14.189040047390417,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.08637592691175,
+              27.434203788555255
+            ],
+            "neumann_remainder_proxy": [
+              1161.8810238307487,
+              752.6355375119795
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.047574534222277205,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.2470703125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.510941464245342,
+          "coding_rate_after": 11.531618861233401,
+          "input_norm": 14.189040047390417,
+          "output_norm": 14.215678317212834,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 6.563397346576053,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-10-4",
+    "source_hashes": {},
+    "config_hash": "9da315d82807f7e268c8790cacbc65de5a6de6fcf341924702d7c7c0e0ba2c1c",
+    "seed": 10,
+    "task_id": "theorem_toy",
+    "R": 4,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.340225+00:00",
+    "finished_at": "2026-09-29T19:11:24.340835+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      11.510941464245342,
+      11.531618861233401,
+      11.552400403857433,
+      11.57328590082388
+    ],
+    "sparsity": [
+      0.505859375,
+      0.2470703125,
+      0.248046875,
+      0.24609375
+    ],
+    "SNR": null,
+    "norms": [
+      14.189040047390417,
+      14.215678317212834,
+      14.24254270152598,
+      14.269635118235005
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.000610334041994065,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              52.63477918851101,
+              40.16724228551746
+            ],
+            "neumann_remainder_proxy": [
+              2770.419980223312,
+              1613.407352823462
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.08023755316967707,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.505859375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 17.328544267520204,
+          "coding_rate_after": 11.510941464245342,
+          "input_norm": 19.518097826464484,
+          "output_norm": 14.189040047390417,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.08637592691175,
+              27.434203788555255
+            ],
+            "neumann_remainder_proxy": [
+              1161.8810238307487,
+              752.6355375119795
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.047574534222277205,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.2470703125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.510941464245342,
+          "coding_rate_after": 11.531618861233401,
+          "input_norm": 14.189040047390417,
+          "output_norm": 14.215678317212834,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.316546326909155,
+              27.63557297643948
+            ],
+            "neumann_remainder_proxy": [
+              1177.6253518069022,
+              763.7248937361121
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04783204508234976,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.248046875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.531618861233401,
+          "coding_rate_after": 11.552400403857433,
+          "input_norm": 14.215678317212834,
+          "output_norm": 14.24254270152598,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.54917756605357,
+              27.83921622315875
+            ],
+            "neumann_remainder_proxy": [
+              1193.6456704906993,
+              775.0219599197853
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.048091774636947665,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.24609375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.552400403857433,
+          "coding_rate_after": 11.57328590082388,
+          "input_norm": 14.24254270152598,
+          "output_norm": 14.269635118235005,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 6.563397346576053,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-10-8",
+    "source_hashes": {},
+    "config_hash": "29a2f3d60c1398f00fab64560c76422f89f0aa441898ed3d36ebf863fc43e065",
+    "seed": 10,
+    "task_id": "theorem_toy",
+    "R": 8,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.340872+00:00",
+    "finished_at": "2026-09-29T19:11:24.342056+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      11.510941464245342,
+      11.531618861233401,
+      11.552400403857433,
+      11.57328590082388,
+      11.594279944095572,
+      11.615382898489273,
+      11.636595111253808,
+      11.657916963011743
+    ],
+    "sparsity": [
+      0.505859375,
+      0.2470703125,
+      0.248046875,
+      0.24609375,
+      0.24609375,
+      0.2451171875,
+      0.244140625,
+      0.244140625
+    ],
+    "SNR": null,
+    "norms": [
+      14.189040047390417,
+      14.215678317212834,
+      14.24254270152598,
+      14.269635118235005,
+      14.296957520440701,
+      14.324511890465546,
+      14.352300232497038,
+      14.380324572967766
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.00118470803136006,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              52.63477918851101,
+              40.16724228551746
+            ],
+            "neumann_remainder_proxy": [
+              2770.419980223312,
+              1613.407352823462
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.08023755316967707,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.505859375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 17.328544267520204,
+          "coding_rate_after": 11.510941464245342,
+          "input_norm": 19.518097826464484,
+          "output_norm": 14.189040047390417,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.08637592691175,
+              27.434203788555255
+            ],
+            "neumann_remainder_proxy": [
+              1161.8810238307487,
+              752.6355375119795
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.047574534222277205,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.2470703125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.510941464245342,
+          "coding_rate_after": 11.531618861233401,
+          "input_norm": 14.189040047390417,
+          "output_norm": 14.215678317212834,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.316546326909155,
+              27.63557297643948
+            ],
+            "neumann_remainder_proxy": [
+              1177.6253518069022,
+              763.7248937361121
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04783204508234976,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.248046875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.531618861233401,
+          "coding_rate_after": 11.552400403857433,
+          "input_norm": 14.215678317212834,
+          "output_norm": 14.24254270152598,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.54917756605357,
+              27.83921622315875
+            ],
+            "neumann_remainder_proxy": [
+              1193.6456704906993,
+              775.0219599197853
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.048091774636947665,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.24609375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.552400403857433,
+          "coding_rate_after": 11.57328590082388,
+          "input_norm": 14.24254270152598,
+          "output_norm": 14.269635118235005,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.7843278423758,
+              28.045196976888644
+            ],
+            "neumann_remainder_proxy": [
+              1209.9494634458804,
+              786.5330734724839
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04835375686679264,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.24609375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.57328590082388,
+          "coding_rate_after": 11.594279944095572,
+          "input_norm": 14.269635118235005,
+          "output_norm": 14.296957520440701,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              35.021998714868204,
+              28.253554319821756
+            ],
+            "neumann_remainder_proxy": [
+              1226.5403939842301,
+              798.2633317031186
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04861802260566252,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.2451171875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.594279944095572,
+          "coding_rate_after": 11.615382898489273,
+          "input_norm": 14.296957520440701,
+          "output_norm": 14.324511890465546,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              35.262222417928406,
+              28.4643223812002
+            ],
+            "neumann_remainder_proxy": [
+              1243.4243298514527,
+              810.2176486208947
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04888460520000647,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.244140625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.615382898489273,
+          "coding_rate_after": 11.636595111253808,
+          "input_norm": 14.324511890465546,
+          "output_norm": 14.352300232497038,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              35.5050321191964,
+              28.67753612303163
+            ],
+            "neumann_remainder_proxy": [
+              1260.607305785168,
+              822.401078087784
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.049153539009069186,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.244140625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.636595111253808,
+          "coding_rate_after": 11.657916963011743,
+          "input_norm": 14.352300232497038,
+          "output_norm": 14.380324572967766,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 6.563397346576053,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-10-1",
+    "source_hashes": {},
+    "config_hash": "2606532b2ff427f9f8a666062501bf47503dacd5e22003728a5d431cf1787c61",
+    "seed": 10,
+    "task_id": "equal_flops_untied",
+    "R": 1,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.342093+00:00",
+    "finished_at": "2026-09-29T19:11:24.342928+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      11.510941464245342,
+      11.531618861233401,
+      11.552400403857433,
+      11.57328590082388
+    ],
+    "sparsity": [
+      0.505859375,
+      0.2470703125,
+      0.248046875,
+      0.24609375
+    ],
+    "SNR": null,
+    "norms": [
+      14.189040047390417,
+      14.215678317212834,
+      14.24254270152598,
+      14.269635118235005
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0008380829822272062,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              52.63477918851101,
+              40.16724228551746
+            ],
+            "neumann_remainder_proxy": [
+              2770.419980223312,
+              1613.407352823462
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.08023755316967707,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.505859375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 17.328544267520204,
+          "coding_rate_after": 11.510941464245342,
+          "input_norm": 19.518097826464484,
+          "output_norm": 14.189040047390417,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.08637592691175,
+              27.434203788555255
+            ],
+            "neumann_remainder_proxy": [
+              1161.8810238307487,
+              752.6355375119795
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.047574534222277205,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.2470703125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.510941464245342,
+          "coding_rate_after": 11.531618861233401,
+          "input_norm": 14.189040047390417,
+          "output_norm": 14.215678317212834,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.316546326909155,
+              27.63557297643948
+            ],
+            "neumann_remainder_proxy": [
+              1177.6253518069022,
+              763.7248937361121
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04783204508234976,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.248046875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.531618861233401,
+          "coding_rate_after": 11.552400403857433,
+          "input_norm": 14.215678317212834,
+          "output_norm": 14.24254270152598,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              34.54917756605357,
+              27.83921622315875
+            ],
+            "neumann_remainder_proxy": [
+              1193.6456704906993,
+              775.0219599197853
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.048091774636947665,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.24609375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.552400403857433,
+          "coding_rate_after": 11.57328590082388,
+          "input_norm": 14.24254270152598,
+          "output_norm": 14.269635118235005,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-11-1",
+    "source_hashes": {},
+    "config_hash": "e0f51f00e944386fc4ede2986a33987631538b13fe2b6d05bb1638f636531850",
+    "seed": 11,
+    "task_id": "theorem_toy",
+    "R": 1,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.343087+00:00",
+    "finished_at": "2026-09-29T19:11:24.343263+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.613180992212868
+    ],
+    "sparsity": [
+      0.50390625
+    ],
+    "SNR": null,
+    "norms": [
+      12.767530748891447
+    ],
+    "operator_residual": [
+      0.0
+    ],
+    "wall_seconds": 0.00017616699915379286,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              50.06630780166687,
+              38.93676530881698
+            ],
+            "neumann_remainder_proxy": [
+              2506.635176891249,
+              1516.0716927138935
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07418070724383741,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.50390625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 15.828529415584988,
+          "coding_rate_after": 9.613180992212868,
+          "input_norm": 18.34498021400795,
+          "output_norm": 12.767530748891447,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.260727170964192,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-11-2",
+    "source_hashes": {},
+    "config_hash": "4a234c3ab74f544dea68ff1b0302b6b14e2d5f91107bc4f27cee1444a2feee47",
+    "seed": 11,
+    "task_id": "theorem_toy",
+    "R": 2,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.343312+00:00",
+    "finished_at": "2026-09-29T19:11:24.343629+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.613180992212868,
+      9.625690169549404
+    ],
+    "sparsity": [
+      0.50390625,
+      0.310546875
+    ],
+    "SNR": null,
+    "norms": [
+      12.767530748891447,
+      12.781804274733382
+    ],
+    "operator_residual": [
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.00031774997478350997,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              50.06630780166687,
+              38.93676530881698
+            ],
+            "neumann_remainder_proxy": [
+              2506.635176891249,
+              1516.0716927138935
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07418070724383741,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.50390625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 15.828529415584988,
+          "coding_rate_after": 9.613180992212868,
+          "input_norm": 18.34498021400795,
+          "output_norm": 12.767530748891447,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.069533462099145,
+              16.382156399653486
+            ],
+            "neumann_remainder_proxy": [
+              402.7861733863173,
+              268.3750483027076
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03537615328809116,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.310546875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.613180992212868,
+          "coding_rate_after": 9.625690169549404,
+          "input_norm": 12.767530748891447,
+          "output_norm": 12.781804274733382,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.260727170964192,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-11-4",
+    "source_hashes": {},
+    "config_hash": "7b9dca86e52c2b59131a509215706108f3c5bb49c1606304e8047585a876eb5c",
+    "seed": 11,
+    "task_id": "theorem_toy",
+    "R": 4,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.343672+00:00",
+    "finished_at": "2026-09-29T19:11:24.344303+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.613180992212868,
+      9.625690169549404,
+      9.63825951267594,
+      9.650878078472232
+    ],
+    "sparsity": [
+      0.50390625,
+      0.310546875,
+      0.3115234375,
+      0.3115234375
+    ],
+    "SNR": null,
+    "norms": [
+      12.767530748891447,
+      12.781804274733382,
+      12.796226855933309,
+      12.810799938408321
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0006316250073723495,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              50.06630780166687,
+              38.93676530881698
+            ],
+            "neumann_remainder_proxy": [
+              2506.635176891249,
+              1516.0716927138935
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07418070724383741,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.50390625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 15.828529415584988,
+          "coding_rate_after": 9.613180992212868,
+          "input_norm": 18.34498021400795,
+          "output_norm": 12.767530748891447,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.069533462099145,
+              16.382156399653486
+            ],
+            "neumann_remainder_proxy": [
+              402.7861733863173,
+              268.3750483027076
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03537615328809116,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.310546875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.613180992212868,
+          "coding_rate_after": 9.625690169549404,
+          "input_norm": 12.767530748891447,
+          "output_norm": 12.781804274733382,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.202961704523943,
+              16.47346943156607
+            ],
+            "neumann_remainder_proxy": [
+              408.159661634461,
+              271.3751951127417
+            ],
+            "row_sum_error": 3.3306690738754696e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03556063146444662,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3115234375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.625690169549404,
+          "coding_rate_after": 9.63825951267594,
+          "input_norm": 12.781804274733382,
+          "output_norm": 12.796226855933309,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.33806061064088,
+              16.56576129973329
+            ],
+            "neumann_remainder_proxy": [
+              413.6367094021021,
+              274.42444743974113
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.035747036304578206,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3115234375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.63825951267594,
+          "coding_rate_after": 9.650878078472232,
+          "input_norm": 12.796226855933309,
+          "output_norm": 12.810799938408321,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.260727170964192,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-11-8",
+    "source_hashes": {},
+    "config_hash": "8e5deabff8f31fd08bf639c787049a6b3e0cd36de6acb15f254de4c3fbac4499",
+    "seed": 11,
+    "task_id": "theorem_toy",
+    "R": 8,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.344341+00:00",
+    "finished_at": "2026-09-29T19:11:24.345540+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.613180992212868,
+      9.625690169549404,
+      9.63825951267594,
+      9.650878078472232,
+      9.663565715750021,
+      9.676325422371036,
+      9.689148857158209,
+      9.702032796200058
+    ],
+    "sparsity": [
+      0.50390625,
+      0.310546875,
+      0.3115234375,
+      0.3115234375,
+      0.3115234375,
+      0.3115234375,
+      0.3125,
+      0.314453125
+    ],
+    "SNR": null,
+    "norms": [
+      12.767530748891447,
+      12.781804274733382,
+      12.796226855933309,
+      12.810799938408321,
+      12.825525002197264,
+      12.840403549593951,
+      12.855437115933748,
+      12.870627208943686
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0011993750231340528,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              50.06630780166687,
+              38.93676530881698
+            ],
+            "neumann_remainder_proxy": [
+              2506.635176891249,
+              1516.0716927138935
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07418070724383741,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.50390625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 15.828529415584988,
+          "coding_rate_after": 9.613180992212868,
+          "input_norm": 18.34498021400795,
+          "output_norm": 12.767530748891447,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.069533462099145,
+              16.382156399653486
+            ],
+            "neumann_remainder_proxy": [
+              402.7861733863173,
+              268.3750483027076
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03537615328809116,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.310546875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.613180992212868,
+          "coding_rate_after": 9.625690169549404,
+          "input_norm": 12.767530748891447,
+          "output_norm": 12.781804274733382,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.202961704523943,
+              16.47346943156607
+            ],
+            "neumann_remainder_proxy": [
+              408.159661634461,
+              271.3751951127417
+            ],
+            "row_sum_error": 3.3306690738754696e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03556063146444662,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3115234375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.625690169549404,
+          "coding_rate_after": 9.63825951267594,
+          "input_norm": 12.781804274733382,
+          "output_norm": 12.796226855933309,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.33806061064088,
+              16.56576129973329
+            ],
+            "neumann_remainder_proxy": [
+              413.6367094021021,
+              274.42444743974113
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.035747036304578206,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3115234375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.63825951267594,
+          "coding_rate_after": 9.650878078472232,
+          "input_norm": 12.796226855933309,
+          "output_norm": 12.810799938408321,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.474883050819624,
+              16.658907007775024
+            ],
+            "neumann_remainder_proxy": [
+              419.2208359447407,
+              277.5191826936958
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03593539285111756,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3115234375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.650878078472232,
+          "coding_rate_after": 9.663565715750021,
+          "input_norm": 12.810799938408321,
+          "output_norm": 12.825525002197264,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.61339548766676,
+              16.753123596770585
+            ],
+            "neumann_remainder_proxy": [
+              424.91207353096036,
+              280.6671502486714
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03612574419308981,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3115234375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.663565715750021,
+          "coding_rate_after": 9.676325422371036,
+          "input_norm": 12.825525002197264,
+          "output_norm": 12.840403549593951,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.753605548227185,
+              16.848428221165538
+            ],
+            "neumann_remainder_proxy": [
+              430.7121432514062,
+              283.8695335237673
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.0363181125769954,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.676325422371036,
+          "coding_rate_after": 9.689148857158209,
+          "input_norm": 12.840403549593951,
+          "output_norm": 12.855437115933748,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.895608270369053,
+              16.944763944768233
+            ],
+            "neumann_remainder_proxy": [
+              436.62644498871555,
+              287.1250251439175
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.036512575680296915,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.314453125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.689148857158209,
+          "coding_rate_after": 9.702032796200058,
+          "input_norm": 12.855437115933748,
+          "output_norm": 12.870627208943686,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 5.260727170964192,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-11-1",
+    "source_hashes": {},
+    "config_hash": "d106521956183f235d71935e22e33b207fc02b35a8d0d35b808b0994191b1746",
+    "seed": 11,
+    "task_id": "equal_flops_untied",
+    "R": 1,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.345578+00:00",
+    "finished_at": "2026-09-29T19:11:24.346181+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      9.613180992212868,
+      9.625690169549404,
+      9.63825951267594,
+      9.650878078472232
+    ],
+    "sparsity": [
+      0.50390625,
+      0.310546875,
+      0.3115234375,
+      0.3115234375
+    ],
+    "SNR": null,
+    "norms": [
+      12.767530748891447,
+      12.781804274733382,
+      12.796226855933309,
+      12.810799938408321
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.00060299999313429,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              50.06630780166687,
+              38.93676530881698
+            ],
+            "neumann_remainder_proxy": [
+              2506.635176891249,
+              1516.0716927138935
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.07418070724383741,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.50390625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 15.828529415584988,
+          "coding_rate_after": 9.613180992212868,
+          "input_norm": 18.34498021400795,
+          "output_norm": 12.767530748891447,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.069533462099145,
+              16.382156399653486
+            ],
+            "neumann_remainder_proxy": [
+              402.7861733863173,
+              268.3750483027076
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03537615328809116,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.310546875,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.613180992212868,
+          "coding_rate_after": 9.625690169549404,
+          "input_norm": 12.767530748891447,
+          "output_norm": 12.781804274733382,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.202961704523943,
+              16.47346943156607
+            ],
+            "neumann_remainder_proxy": [
+              408.159661634461,
+              271.3751951127417
+            ],
+            "row_sum_error": 3.3306690738754696e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.03556063146444662,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3115234375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.625690169549404,
+          "coding_rate_after": 9.63825951267594,
+          "input_norm": 12.781804274733382,
+          "output_norm": 12.796226855933309,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              20.33806061064088,
+              16.56576129973329
+            ],
+            "neumann_remainder_proxy": [
+              413.6367094021021,
+              274.42444743974113
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.035747036304578206,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3115234375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 9.63825951267594,
+          "coding_rate_after": 9.650878078472232,
+          "input_norm": 12.796226855933309,
+          "output_norm": 12.810799938408321,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-12-1",
+    "source_hashes": {},
+    "config_hash": "edada1ebee8f72a56e2998cfa2b1dab3216757c4964499efbd8789d9b40e361e",
+    "seed": 12,
+    "task_id": "theorem_toy",
+    "R": 1,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.346292+00:00",
+    "finished_at": "2026-09-29T19:11:24.346457+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      11.098369488534862
+    ],
+    "sparsity": [
+      0.5078125
+    ],
+    "SNR": null,
+    "norms": [
+      14.41690125569982
+    ],
+    "operator_residual": [
+      0.0
+    ],
+    "wall_seconds": 0.00016475003212690353,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              52.54662235587901,
+              41.29109239639905
+            ],
+            "neumann_remainder_proxy": [
+              2761.1475210113636,
+              1704.9543112879635
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.08213256561965047,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5078125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 17.436426735291512,
+          "coding_rate_after": 11.098369488534862,
+          "input_norm": 19.63651002066882,
+          "output_norm": 14.41690125569982,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 6.0847908457283335,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-12-2",
+    "source_hashes": {},
+    "config_hash": "2dbb262e4bb270d9c75cc8248684bd4bf7dd0f4eaf578d55b5fbc3f949a024be",
+    "seed": 12,
+    "task_id": "theorem_toy",
+    "R": 2,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.346494+00:00",
+    "finished_at": "2026-09-29T19:11:24.346801+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      11.098369488534862,
+      11.115155925057614
+    ],
+    "sparsity": [
+      0.5078125,
+      0.337890625
+    ],
+    "SNR": null,
+    "norms": [
+      14.41690125569982,
+      14.437778553744431
+    ],
+    "operator_residual": [
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0003072080435231328,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              52.54662235587901,
+              41.29109239639905
+            ],
+            "neumann_remainder_proxy": [
+              2761.1475210113636,
+              1704.9543112879635
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.08213256561965047,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5078125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 17.436426735291512,
+          "coding_rate_after": 11.098369488534862,
+          "input_norm": 19.63651002066882,
+          "output_norm": 14.41690125569982,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              25.695253888321535,
+              22.789693511435136
+            ],
+            "neumann_remainder_proxy": [
+              660.2460723853029,
+              519.3701303451487
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.043261666465695986,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.337890625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.098369488534862,
+          "coding_rate_after": 11.115155925057614,
+          "input_norm": 14.41690125569982,
+          "output_norm": 14.437778553744431,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 6.0847908457283335,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-12-4",
+    "source_hashes": {},
+    "config_hash": "c5eb33b445acff9e3f14b3cff2510d4eee781098960fd963b18104f6a4667730",
+    "seed": 12,
+    "task_id": "theorem_toy",
+    "R": 4,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.346838+00:00",
+    "finished_at": "2026-09-29T19:11:24.347436+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      11.098369488534862,
+      11.115155925057614,
+      11.1320069003383,
+      11.148926138184363
+    ],
+    "sparsity": [
+      0.5078125,
+      0.337890625,
+      0.3369140625,
+      0.3359375
+    ],
+    "SNR": null,
+    "norms": [
+      14.41690125569982,
+      14.437778553744431,
+      14.45883923356547,
+      14.480084561119622
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0005976249813102186,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              52.54662235587901,
+              41.29109239639905
+            ],
+            "neumann_remainder_proxy": [
+              2761.1475210113636,
+              1704.9543112879635
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.08213256561965047,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5078125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 17.436426735291512,
+          "coding_rate_after": 11.098369488534862,
+          "input_norm": 19.63651002066882,
+          "output_norm": 14.41690125569982,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              25.695253888321535,
+              22.789693511435136
+            ],
+            "neumann_remainder_proxy": [
+              660.2460723853029,
+              519.3701303451487
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.043261666465695986,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.337890625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.098369488534862,
+          "coding_rate_after": 11.115155925057614,
+          "input_norm": 14.41690125569982,
+          "output_norm": 14.437778553744431,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              25.859911408820206,
+              22.932476868437355
+            ],
+            "neumann_remainder_proxy": [
+              668.7350180720294,
+              525.8984953214143
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04348264060514536,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3369140625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.115155925057614,
+          "coding_rate_after": 11.1320069003383,
+          "input_norm": 14.437778553744431,
+          "output_norm": 14.45883923356547,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              26.0262273562138,
+              23.076733256479827
+            ],
+            "neumann_remainder_proxy": [
+              677.3645103973315,
+              532.535617790722
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04370516969526894,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3359375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.1320069003383,
+          "coding_rate_after": 11.148926138184363,
+          "input_norm": 14.45883923356547,
+          "output_norm": 14.480084561119622,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 6.0847908457283335,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-12-8",
+    "source_hashes": {},
+    "config_hash": "c5aa4e3985a59c827b75dddd5c8404192142b4ff5401c799f9ea7e2b4f6626d7",
+    "seed": 12,
+    "task_id": "theorem_toy",
+    "R": 8,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.347474+00:00",
+    "finished_at": "2026-09-29T19:11:24.348667+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      11.098369488534862,
+      11.115155925057614,
+      11.1320069003383,
+      11.148926138184363,
+      11.165934266082388,
+      11.183029672680092,
+      11.200214613513076,
+      11.217471873847336
+    ],
+    "sparsity": [
+      0.5078125,
+      0.337890625,
+      0.3369140625,
+      0.3359375,
+      0.3349609375,
+      0.3349609375,
+      0.3349609375,
+      0.3369140625
+    ],
+    "SNR": null,
+    "norms": [
+      14.41690125569982,
+      14.437778553744431,
+      14.45883923356547,
+      14.480084561119622,
+      14.501515899352922,
+      14.523134593236877,
+      14.544941946732443,
+      14.56693938878576
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.0011934589711017907,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              52.54662235587901,
+              41.29109239639905
+            ],
+            "neumann_remainder_proxy": [
+              2761.1475210113636,
+              1704.9543112879635
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.08213256561965047,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5078125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 17.436426735291512,
+          "coding_rate_after": 11.098369488534862,
+          "input_norm": 19.63651002066882,
+          "output_norm": 14.41690125569982,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              25.695253888321535,
+              22.789693511435136
+            ],
+            "neumann_remainder_proxy": [
+              660.2460723853029,
+              519.3701303451487
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.043261666465695986,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.337890625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.098369488534862,
+          "coding_rate_after": 11.115155925057614,
+          "input_norm": 14.41690125569982,
+          "output_norm": 14.437778553744431,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              25.859911408820206,
+              22.932476868437355
+            ],
+            "neumann_remainder_proxy": [
+              668.7350180720294,
+              525.8984953214143
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04348264060514536,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3369140625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.115155925057614,
+          "coding_rate_after": 11.1320069003383,
+          "input_norm": 14.437778553744431,
+          "output_norm": 14.45883923356547,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              26.0262273562138,
+              23.076733256479827
+            ],
+            "neumann_remainder_proxy": [
+              677.3645103973315,
+              532.535617790722
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04370516969526894,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3359375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.1320069003383,
+          "coding_rate_after": 11.148926138184363,
+          "input_norm": 14.45883923356547,
+          "output_norm": 14.480084561119622,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              26.194239115313636,
+              23.222487796074603
+            ],
+            "neumann_remainder_proxy": [
+              686.1381628302269,
+              539.2839394388338
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04392928179738426,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3349609375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.148926138184363,
+          "coding_rate_after": 11.165934266082388,
+          "input_norm": 14.480084561119622,
+          "output_norm": 14.501515899352922,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              26.364050132554834,
+              23.369794630621772
+            ],
+            "neumann_remainder_proxy": [
+              695.0631393918645,
+              546.1473010774382
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04415503669018417,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3349609375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.165934266082388,
+          "coding_rate_after": 11.183029672680092,
+          "input_norm": 14.501515899352922,
+          "output_norm": 14.523134593236877,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              26.53552545905637,
+              23.518771421064883
+            ],
+            "neumann_remainder_proxy": [
+              704.1341113882288,
+              553.1326091562984
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.044382371560067545,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3349609375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.183029672680092,
+          "coding_rate_after": 11.200214613513076,
+          "input_norm": 14.523134593236877,
+          "output_norm": 14.544941946732443,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              26.70886845317884,
+              23.669322081565028
+            ],
+            "neumann_remainder_proxy": [
+              713.3636540492118,
+              560.2368078008618
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04461140112159625,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3369140625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.200214613513076,
+          "coding_rate_after": 11.217471873847336,
+          "input_norm": 14.544941946732443,
+          "output_norm": 14.56693938878576,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "input_SNR": 6.0847908457283335,
+    "comparison_status": "DERIVED_PROTOTYPE"
+  },
+  {
+    "run_id": "loop-12-1",
+    "source_hashes": {},
+    "config_hash": "bb597917863d2cf103dffd79125834b4fed7fbd3e882ec5a4b6b464a000e49e1",
+    "seed": 12,
+    "task_id": "equal_flops_untied",
+    "R": 1,
+    "weights_mode": "fixed",
+    "dtype": "float64",
+    "device": "cpu",
+    "budget": {},
+    "started_at": "2026-09-29T19:11:24.348707+00:00",
+    "finished_at": "2026-09-29T19:11:24.349300+00:00",
+    "status": "DERIVED_PROTOTYPE",
+    "stop_reason": "COMPLETED",
+    "coding_rate": [
+      11.098369488534862,
+      11.115155925057614,
+      11.1320069003383,
+      11.148926138184363
+    ],
+    "sparsity": [
+      0.5078125,
+      0.337890625,
+      0.3369140625,
+      0.3359375
+    ],
+    "SNR": null,
+    "norms": [
+      14.41690125569982,
+      14.437778553744431,
+      14.45883923356547,
+      14.480084561119622
+    ],
+    "operator_residual": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "wall_seconds": 0.000593333039432764,
+    "peak_memory": null,
+    "FLOPs": null,
+    "compile_seconds": 0.0,
+    "receipt": {
+      "diagnostics": [
+        {
+          "mssa": {
+            "A_norms": [
+              52.54662235587901,
+              41.29109239639905
+            ],
+            "neumann_remainder_proxy": [
+              2761.1475210113636,
+              1704.9543112879635
+            ],
+            "row_sum_error": 4.440892098500626e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.08213256561965047,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.5078125,
+            "nonnegative": true
+          },
+          "coding_rate_before": 17.436426735291512,
+          "coding_rate_after": 11.098369488534862,
+          "input_norm": 19.63651002066882,
+          "output_norm": 14.41690125569982,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              25.695253888321535,
+              22.789693511435136
+            ],
+            "neumann_remainder_proxy": [
+              660.2460723853029,
+              519.3701303451487
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.043261666465695986,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.337890625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.098369488534862,
+          "coding_rate_after": 11.115155925057614,
+          "input_norm": 14.41690125569982,
+          "output_norm": 14.437778553744431,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              25.859911408820206,
+              22.932476868437355
+            ],
+            "neumann_remainder_proxy": [
+              668.7350180720294,
+              525.8984953214143
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04348264060514536,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3369140625,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.115155925057614,
+          "coding_rate_after": 11.1320069003383,
+          "input_norm": 14.437778553744431,
+          "output_norm": 14.45883923356547,
+          "finite": true
+        },
+        {
+          "mssa": {
+            "A_norms": [
+              26.0262273562138,
+              23.076733256479827
+            ],
+            "neumann_remainder_proxy": [
+              677.3645103973315,
+              532.535617790722
+            ],
+            "row_sum_error": 2.220446049250313e-16,
+            "causal": false,
+            "finite": true,
+            "update_norm": 0.04370516969526894,
+            "epsilon": 0.75,
+            "kappa": 0.01
+          },
+          "ista": {
+            "finite": true,
+            "residual_norm": 0.0,
+            "sparsity": 0.3359375,
+            "nonnegative": true
+          },
+          "coding_rate_before": 11.1320069003383,
+          "coding_rate_after": 11.148926138184363,
+          "input_norm": 14.45883923356547,
+          "output_norm": 14.480084561119622,
+          "finite": true
+        }
+      ],
+      "input_shape": [
+        32,
+        32
+      ]
+    },
+    "comparison_status": "DERIVED_PROTOTYPE"
+  }
+]

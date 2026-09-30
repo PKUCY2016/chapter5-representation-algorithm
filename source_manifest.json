@@ -1,0 +1,75 @@
+{
+  "access_date": "2026-09-30",
+  "status": "SOURCE_SPECIFIED",
+  "sources": [
+    {
+      "id": "chapter5_html",
+      "url": "https://ma-lab-berkeley.github.io/deep-representation-learning-book/Ch5.html",
+      "scope": "Chapter 5 formulas, Theorem 5.1, Example 5.4"
+    },
+    {
+      "id": "chapter5_tex",
+      "url": "https://raw.githubusercontent.com/Ma-Lab-Berkeley/deep-representation-learning-book/main/chapters/chapter5/deep-networks.tex",
+      "scope": "source TeX and equation locations"
+    },
+    {
+      "id": "crate_repo",
+      "url": "https://github.com/Ma-Lab-Berkeley/CRATE",
+      "scope": "official implementation"
+    },
+    {
+      "id": "white_box",
+      "url": "https://arxiv.org/abs/2311.13110",
+      "scope": "white-box transformer claims"
+    },
+    {
+      "id": "attention_only",
+      "url": "https://arxiv.org/abs/2506.03790",
+      "scope": "attention-only / TSSA context"
+    },
+    {
+      "id": "looped_pmlr",
+      "url": "https://proceedings.mlr.press/v202/giannou23a.html",
+      "scope": "looped transformer reference"
+    },
+    {
+      "id": "looped_yang",
+      "url": "https://arxiv.org/abs/2311.12424",
+      "scope": "looped transformer reference"
+    },
+    {
+      "id": "latent_thoughts",
+      "url": "https://arxiv.org/abs/2502.17416",
+      "scope": "iterative latent computation reference"
+    }
+  ],
+  "claims": [
+    {
+      "id": "crate_mssa_ista",
+      "status": "SOURCE_SPECIFIED",
+      "limits": "formula mapping only; no convergence claim"
+    },
+    {
+      "id": "theorem_5_1",
+      "status": "SOURCE_SPECIFIED",
+      "limits": "low-rank Gaussian mixture assumptions only"
+    },
+    {
+      "id": "causal_crate",
+      "status": "SOURCE_SPECIFIED",
+      "limits": "prefix objective and cache require separate validation"
+    },
+    {
+      "id": "example_5_4",
+      "status": "NOT_EVALUATED",
+      "limits": "research direction; target and stopping objective unspecified"
+    },
+    {
+      "id": "tssa_tost",
+      "status": "SOURCE_SPECIFIED",
+      "location": "Chapter 5 eqs. (5.3.6)-(5.3.18)",
+      "limits": "reference implements low-rank TSSA; ToST training and task performance not evaluated"
+    }
+  ],
+  "source_hashes": "REMOTE_COMMIT_UNAVAILABLE_NETWORK_BLOCKED; local artifact hashes in round evidence"
+}

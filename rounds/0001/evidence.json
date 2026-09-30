@@ -1,0 +1,16 @@
+{
+  "status": "OPERATOR_IMPL",
+  "test_command": "PYTHONPATH=research_loop/04_representation_algorithm fpe_solver/.venv/bin/python -m unittest discover -s research_loop/04_representation_algorithm/tests -v",
+  "tests_passed": 11,
+  "files": {
+    "README.md": "a6c5ff82de4920d6502caff5c8fcf01b2310c9ad95b641adc53178ecbb593e62",
+    "source_manifest.json": "0892e51e5a49328c6b35ea38755b31b3504ad9330c9d24ea1dd12d8b52f12772",
+    "specification.json": "d5e7c97ae5fd0cfccb61b6ea21294843c53649152606cd55831ba7ca3add5813",
+    "reference.py": "bc1f587f1c8fd9bc542669198c6f2cf792b849dc4aad63117d78ca5d8a340a5c",
+    "tests/test_reference.py": "b083cefba9f2678fbf17c48455a0cf965deffcd3b94406a7ad47c9cc2093d0e5",
+    "benchmarks/complexity.py": "2b2bc0c3bd074c7b6983d3f08b632258dfc563e2aff63212a374416b7800c6e8",
+    "benchmarks/loop_experiment.py": "a36f355d4e2450055f2b61a84432ffd19a55b041d2258049fb89f7f37a45fc58"
+  },
+  "exact_gradient": "PASS",
+  "neumann_gradient": "PASS"
+}

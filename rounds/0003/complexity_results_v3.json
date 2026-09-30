@@ -1,0 +1,180 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "N": 128,
+      "operator": "MSSA",
+      "wall_seconds": 0.0033176669967360795,
+      "peak_memory_bytes": 760032,
+      "FLOPs_estimate": 16777216,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": [
+        273.5129821557963,
+        263.5712934906159,
+        274.79462970708204,
+        281.6995388787429
+      ],
+      "status": "PASS"
+    },
+    {
+      "N": 128,
+      "operator": "TSSA",
+      "wall_seconds": 0.0003689170116558671,
+      "peak_memory_bytes": 602136,
+      "FLOPs_estimate": 4327936,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": null,
+      "status": "PASS"
+    },
+    {
+      "N": 128,
+      "operator": "DENSE_ATTENTION",
+      "wall_seconds": 0.0004366250359453261,
+      "peak_memory_bytes": 758232,
+      "FLOPs_estimate": 16777216,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": null,
+      "status": "PASS"
+    },
+    {
+      "N": 256,
+      "operator": "MSSA",
+      "wall_seconds": 0.011776415980421007,
+      "peak_memory_bytes": 2497744,
+      "FLOPs_estimate": 50331648,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": [
+        484.5746942302092,
+        464.48123537174695,
+        453.80607853014817,
+        430.08975238947596
+      ],
+      "status": "PASS"
+    },
+    {
+      "N": 256,
+      "operator": "TSSA",
+      "wall_seconds": 0.0004522500094026327,
+      "peak_memory_bytes": 1134080,
+      "FLOPs_estimate": 8655872,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": null,
+      "status": "PASS"
+    },
+    {
+      "N": 256,
+      "operator": "DENSE_ATTENTION",
+      "wall_seconds": 0.0013692500069737434,
+      "peak_memory_bytes": 2497048,
+      "FLOPs_estimate": 50331648,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": null,
+      "status": "PASS"
+    },
+    {
+      "N": 512,
+      "operator": "MSSA",
+      "wall_seconds": 0.0489727079984732,
+      "peak_memory_bytes": 9313968,
+      "FLOPs_estimate": 167772160,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": [
+        759.0902895570451,
+        798.2211358704508,
+        803.2135169251143,
+        764.7768704825983
+      ],
+      "status": "PASS"
+    },
+    {
+      "N": 512,
+      "operator": "TSSA",
+      "wall_seconds": 0.000666665961034596,
+      "peak_memory_bytes": 2199136,
+      "FLOPs_estimate": 17311744,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": null,
+      "status": "PASS"
+    },
+    {
+      "N": 512,
+      "operator": "DENSE_ATTENTION",
+      "wall_seconds": 0.005588458967395127,
+      "peak_memory_bytes": 9313176,
+      "FLOPs_estimate": 167772160,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": null,
+      "status": "PASS"
+    },
+    {
+      "N": 1024,
+      "operator": "MSSA",
+      "wall_seconds": 0.23710104200290516,
+      "peak_memory_bytes": 35925680,
+      "FLOPs_estimate": 603979776,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": [
+        1396.2931240166008,
+        1383.6766519590576,
+        1397.331538684484,
+        1412.9823473231122
+      ],
+      "status": "PASS"
+    },
+    {
+      "N": 1024,
+      "operator": "TSSA",
+      "wall_seconds": 0.0010603750124573708,
+      "peak_memory_bytes": 4329056,
+      "FLOPs_estimate": 34623488,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": null,
+      "status": "PASS"
+    },
+    {
+      "N": 1024,
+      "operator": "DENSE_ATTENTION",
+      "wall_seconds": 0.022695124964229763,
+      "peak_memory_bytes": 35924648,
+      "FLOPs_estimate": 603979776,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": null,
+      "status": "PASS"
+    },
+    {
+      "N": 2048,
+      "operator": "MSSA",
+      "wall_seconds": 2.114398624980822,
+      "peak_memory_bytes": 141052896,
+      "FLOPs_estimate": 2281701376,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": [
+        2542.3923281948373,
+        2531.3615154482945,
+        2582.5773208945993,
+        2529.446132328853
+      ],
+      "status": "PASS"
+    },
+    {
+      "N": 2048,
+      "operator": "TSSA",
+      "wall_seconds": 0.0021558330045081675,
+      "peak_memory_bytes": 8588896,
+      "FLOPs_estimate": 69246976,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": null,
+      "status": "PASS"
+    },
+    {
+      "N": 2048,
+      "operator": "DENSE_ATTENTION",
+      "wall_seconds": 0.09851458302000538,
+      "peak_memory_bytes": 141052584,
+      "FLOPs_estimate": 2281701376,
+      "flops_method": "analytic_multiply_add_count",
+      "A_norms": null,
+      "status": "PASS"
+    }
+  ]
+}

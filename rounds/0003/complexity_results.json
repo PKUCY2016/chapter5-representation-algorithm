@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "N": 128,
+      "wall_seconds": 0.0030188329983502626,
+      "peak_memory": "NOT_MEASURED",
+      "FLOPs": "NOT_MEASURED",
+      "A_norms": [
+        273.5129821557963,
+        263.5712934906159,
+        274.79462970708204,
+        281.6995388787429
+      ],
+      "status": "PASS"
+    },
+    {
+      "N": 256,
+      "wall_seconds": 0.013070625020191073,
+      "peak_memory": "NOT_MEASURED",
+      "FLOPs": "NOT_MEASURED",
+      "A_norms": [
+        484.5746942302092,
+        464.48123537174695,
+        453.80607853014817,
+        430.08975238947596
+      ],
+      "status": "PASS"
+    },
+    {
+      "N": 512,
+      "wall_seconds": 0.04981466697063297,
+      "peak_memory": "NOT_MEASURED",
+      "FLOPs": "NOT_MEASURED",
+      "A_norms": [
+        759.0902895570451,
+        798.2211358704508,
+        803.2135169251143,
+        764.7768704825983
+      ],
+      "status": "PASS"
+    },
+    {
+      "N": 1024,
+      "wall_seconds": 0.23174454196123406,
+      "peak_memory": "NOT_MEASURED",
+      "FLOPs": "NOT_MEASURED",
+      "A_norms": [
+        1396.2931240166008,
+        1383.6766519590576,
+        1397.331538684484,
+        1412.9823473231122
+      ],
+      "status": "PASS"
+    },
+    {
+      "N": 2048,
+      "wall_seconds": 2.098667708982248,
+      "peak_memory": "NOT_MEASURED",
+      "FLOPs": "NOT_MEASURED",
+      "A_norms": [
+        2542.3923281948373,
+        2531.3615154482945,
+        2582.5773208945993,
+        2529.446132328853
+      ],
+      "status": "PASS"
+    }
+  ]
+}

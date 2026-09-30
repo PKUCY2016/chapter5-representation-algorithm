@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "status_values": ["SOURCE_READ", "SOURCE_SPECIFIED", "OPERATOR_IMPL", "SYNTHETIC_CONDITIONAL", "CONDITIONAL_APPROX", "DERIVED_PROTOTYPE", "PASS", "FAIL_CLOSED", "UPSTREAM_BLOCKED", "UNKNOWN", "NOT_RUN", "NOT_EVALUATED", "STALE"],
+  "dtype": "float64",
+  "tolerances": {"rtol": 1e-8, "atol": 1e-10},
+  "theorem_5_1": {"d": 128, "K": 4, "p": 32, "N": 128, "group_size": 32, "tau": 0.75, "eta": 0.1, "delta": [0.05, 0.1, 0.2], "dev_seeds": [0, 1, 2], "audit_seeds": [10, 11, 12]},
+  "loop": {"R": [1, 2, 4, 8], "no_online_pca": true, "no_real_llm_training": true, "no_manifold_sampling": true},
+  "complexity": {"N": [128, 256, 512, 1024, 2048], "status": "NOT_RUN"},
+  "run_result_fields": ["run_id", "source_hashes", "config_hash", "seed", "task_id", "R", "weights_mode", "dtype", "device", "budget", "started_at", "finished_at", "status", "stop_reason", "coding_rate", "sparsity", "SNR", "norms", "operator_residual", "wall_seconds", "peak_memory", "FLOPs", "compile_seconds", "receipt"]
+}
